@@ -1,0 +1,293 @@
+@media (max-width:1190px) {
+    .cardbox {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .cardboxx {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .Savat {
+        grid-template-columns: repeat(2, auto);
+        margin: 20px auto;
+        padding: 40px;
+    }
+
+    .mini_table2 {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        height: 200px;
+    }
+}
+
+@media (max-width:830px) {
+    .cardbox {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .cardboxx {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .footer {
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .p {
+        font-size: 15px;
+    }
+
+    .ministart {
+        width: 100%;
+    }
+
+    .ministart>img {
+        width: 100%;
+    }
+
+    .Savat {
+        grid-template-columns: repeat(1, auto);
+        margin: 20px auto;
+        padding: 40px;
+    }
+
+    .mini_savat2 {
+        height: auto;
+    }
+}
+
+@media (max-width:587px) {
+    .cardbox {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .footer {
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+        gap: 60px;
+        align-items: center;
+        padding: 20px;
+        padding-bottom: 80px;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .p {
+        font-size: 10px;
+    }
+
+    .ministart {
+        width: 100%;
+    }
+
+    .ministart>img {
+        width: 100%;
+    }
+
+
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        justify-content: flex-start;
+        align-items: flex-start;
+        top: 60px;
+        left: -9000px;
+        gap: 39px;
+        height: 1px;
+        transition: all 0.5s;
+        box-shadow: 2px 2px 5px silver;
+    }
+
+    nav.style {
+        transition: all 0.5s;
+        padding: 10px;
+        padding-left: 20px;
+        padding-top: 60px;
+        height: 450px;
+        left: 0;
+        opacity: 100;
+    }
+
+    ul {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .bigbox {
+        margin-top: 150px;
+    }
+
+    .btn {
+        display: inline-block;
+        width: 60px;
+        height: 30px;
+        transition: all 1s linear;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .bigbox {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar {
+        display: flex;
+        background: #F5F5F5;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0px;
+        width: 100%;
+        justify-content: flex-start;
+        gap: 50px;
+        padding: 10px;
+        margin-top: -10px;
+        align-items: center;
+    }
+
+    .mini_table1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .table_text {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hover {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 100;
+        transition: all 0.4s linear;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hover:hover {
+        opacity: 100;
+        padding-top: 0px;
+
+    }
+
+    .cards {
+        box-shadow: -1px -1px 13px silver;
+        background: rgba(192, 192, 192, 0.046);
+        width: 100%;
+    }
+
+    .cardimg {
+        width: 100%;
+        height: 300px;
+    }
+
+}
+
+@media (max-width:420px) {
+    .start {
+        height: 600px;
+    }
+
+    .img2 {
+        width: 100%;
+        height: 25px;
+        margin: 0 auto;
+    }
+
+    .p {
+        font-weight: 20;
+        font-size: 13px;
+    }
+
+    .cards {
+        box-shadow: -1px -1px 13px silver;
+        background: rgba(192, 192, 192, 0.046);
+        height: 350px;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .container{
+        margin: 0 auto;
+        padding-right: 10px;
+    }
+    .cardbox {
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardimg {
+        width: 100%;
+        height: 250px;
+    }
+
+    .flex {
+        position: fixed;
+        top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: center;
+        left: -900px;
+        transition: all 0.5s linear;
+    }
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .activee {
+        transition: all 0.5s linear;
+        position: fixed;
+        left: 15px;
+        right: 0;
+        top: 60px;
+    }
+
+    .form_savat {
+        height: 600px;
+        font-size: 15px;
+    }
+
+    .savat_input {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .savat_inputt {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .savat_input1 {
+        height: 30px;
+        font-size: 15px;
+    }
+}
